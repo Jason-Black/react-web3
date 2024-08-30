@@ -8,13 +8,13 @@ const Hero = () => {
             <p className='text-[#00df9a] font-bold p-2'>Growing with data analytics</p>
             <h1 className='md:text-7xl sm:text-6xl font-bold text-4xl md:py-6'>Grow With Data</h1>
             <div className='grid col-1'>
-                <p className='md:text-5xl sm:text-4x text-xl font-light'>Fast, Flexible financing for</p>
+                <p className='pt-1 py-3 md:text-5xl sm:text-4xl text-xl font-light'>Fast, Flexible financing for</p>
                 <div className='pt-1'>
-                <ReactTyped className='pt-1 md:text-green-500 md:text-5xl sm:text-cyan-500 sm:text-4xl text-2xl font-bold '
+                <ReactTyped className='pt-1 md:text-green-500 md:text-5xl sm:text-cyan-500 sm:text-4xl text-3xl md:pl-4 pl-2 font-bold '
       strings={[
         "products",
         "categories",
-        "<spam style='color:red; '>brands</span>",
+        "<span style='color:red; '>brands</span>",
       ]}
       typeSpeed={40}
       backSpeed={60}
@@ -22,8 +22,9 @@ const Hero = () => {
       loop />
             </div>
             </div>
+            <button className='bg-[#00df9a] w-[120px] rounded-2xl mx-auto my-6 py-3 text-black hover:scale-105 ease-in-out transition-all duration-300' >Get Started</button>
         </div>
-      Hero
+     
     </div>
   )
 }
